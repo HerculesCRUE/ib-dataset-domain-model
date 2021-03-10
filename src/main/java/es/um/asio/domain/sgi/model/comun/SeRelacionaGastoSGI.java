@@ -28,6 +28,7 @@ public class SeRelacionaGastoSGI extends OperationableDataSetDataBase {
 	public static final String TABLE = "SeRelacionaGasto_sgi";
 
 	private String id;
+	private String idRel;
 	private String titulo;
 	private String moneda;
 	private String descripcion;

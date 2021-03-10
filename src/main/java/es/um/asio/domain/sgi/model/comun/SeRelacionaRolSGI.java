@@ -27,6 +27,7 @@ public class SeRelacionaRolSGI extends OperationableDataSetDataBase {
 	public static final String TABLE = "SeRelacionaRol_sgi";
 
 	private String id;
+	private String idRel;
 	private String descripcion;
 	private String dedicacion;
 	private String tieneAreaConocimiento;

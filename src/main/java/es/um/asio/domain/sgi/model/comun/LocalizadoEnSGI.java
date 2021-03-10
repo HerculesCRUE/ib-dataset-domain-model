@@ -24,6 +24,7 @@ public class LocalizadoEnSGI extends OperationableDataSetDataBase {
 	public static final String TABLE = "LocalizadoEn_sgi";
 
 	protected String id;
+	protected String idRel;
 	protected String geonamesID;
 	protected String codigoPais;
 	protected String nombre;
