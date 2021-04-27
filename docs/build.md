@@ -1,6 +1,6 @@
 # Compilación
 
-Se indicará a continuación los pasos que hay que seguir para llevar a cabo la generación del artefacto.
+A continuación, se indican los pasos que hay que seguir para llevar a cabo la generación del artefacto.
 
 ## Prerrequisitos
 
@@ -11,7 +11,7 @@ Se precisa disponer los siguientes elementos configurados:
 
 ## Compilación
 
-Para realizar la compilación se ejecutará el siguiente comando:
+Para realizar la compilación se ejecuta el siguiente comando:
 
 ```bash
 mvn clean package
@@ -23,9 +23,9 @@ En caso de querer generar al mismo tiempo JavaDoc y Sources el comando siguiente
 mvn clean package javadoc:jar source:jar
 ```
 
-También sería posible instalar o desplegar los artefactos sustituyendo `package` por `install` o `deploy` respectivamente.
+También, es posible instalar o desplegar los artefactos sustituyendo `package` por `install` o `deploy` respectivamente.
 
-Los artefactos se generarán dentro del directorio `target`:
+Los artefactos se generan dentro del directorio `target`:
 
 * Artefacto: dataset-domain-model-{version}.jar
 * JavaDoc: dataset-domain-model-{version}-javadoc.jar
