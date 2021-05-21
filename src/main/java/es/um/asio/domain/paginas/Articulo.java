@@ -100,4 +100,9 @@ public class Articulo extends OperationableDataSetDataBase {
      * Mapping of field COAUT_EXT.
      */
     private String coautExt;
+    
+    /**
+     * Mapping of field ARTI_DOI.
+     */
+    private String artiDoi;
 }

@@ -46,5 +46,10 @@ public class Persona extends OperationableDataSetDataBase {
     /**
      * Mapping of field DEP_NOMBRE.
      */
-    private String depNombre;    
+    private String depNombre;  
+    
+    /**
+     * Mapping of field SEXO.
+     */
+    private String sexo;   
 }
