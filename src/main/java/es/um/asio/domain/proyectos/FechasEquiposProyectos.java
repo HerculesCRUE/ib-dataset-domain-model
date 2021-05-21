@@ -1,4 +1,4 @@
-package es.um.asio.domain.centros;
+package es.um.asio.domain.proyectos;
 
 import javax.persistence.Entity;
 import javax.xml.bind.annotation.XmlElement;
@@ -50,12 +50,12 @@ public class FechasEquiposProyectos extends OperationableDataSetDataBase {
     /**
      * Mapping of field CODTIPOMOTIVOCAMBIOFECHA.
      */
-    protected Object codtipomotivocambiofecha;
+    protected String codtipomotivocambiofecha;
 
     /**
      * Mapping of field MOTIVOCAMBIOFECHA.
      */
-    protected Object motivocambiofecha;
+    protected String motivocambiofecha;
 
     /**
      * Mapping of field FECHAINICIOPERIODO.
