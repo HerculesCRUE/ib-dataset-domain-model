@@ -1,7 +1,7 @@
 package es.um.asio.domain.paginas;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Lob;
 
 import es.um.asio.domain.OperationableDataSetDataBase;
 import lombok.EqualsAndHashCode;
@@ -17,92 +17,92 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class Articulo extends OperationableDataSetDataBase {  
-    
-    /**
-     * Mapping of field CODIGO.
-     */
-    private long codigo;
-    
-    /**
-     * Mapping of field TITULO.
-     */
-    private String titulo;
-    
-    /**
-     * Mapping of field ANO.
-     */
-    private Long ano;
-    
-    /**
-     * Mapping of field PAIS_CODIGO.
-     */
-    private Long paisCodigo;
-    
-    /**
-     * Mapping of field REIS_ISSN.
-     */
-    private String reisIssn;
-    
-    /**
-     * Mapping of field CATALOGO.
-     */
-    private String catalago;
-    
-    /**
-     * Mapping of field AREA.
-     */
-    private Long area;
-    
-    /**
-     * Mapping of field NOMBRE_REVISTA.
-     */
-    @Lob
-    private String nombreRevista;
-    
-    /**
-     * Mapping of field CUARTIL_REVISTA.
-     */
-    private Long cuartilRevista;
-    
-    /**
-     * Mapping of field URL_REVISTA.
-     */
-    @Lob
-    private String urlRevista;
-    
-    /**
-     * Mapping of field VOLUMEN.
-     */
-    private String volumen;
-    
-    /**
-     * Mapping of field NUMERO.
-     */
-    private Long numero;
-    
-    /**
-     * Mapping of field PAGDESDE.
-     */
-    private Long pagDesde;
-    
-    /**
-     * Mapping of field PAGHASTA.
-     */
-    private Long pagHasta;
-    
-    /**
-     * Mapping of field NUMPAG.
-     */
-    private Long numPag;
-    
-    /**
-     * Mapping of field COAUT_EXT.
-     */
-    private String coautExt;
-    
-    /**
-     * Mapping of field ARTI_DOI.
-     */
-    private String artiDoi;
+public class Articulo extends OperationableDataSetDataBase {
+
+	/**
+	 * Mapping of field CODIGO.
+	 */
+	private long codigo;
+
+	/**
+	 * Mapping of field TITULO.
+	 */
+	private String titulo;
+
+	/**
+	 * Mapping of field ANO.
+	 */
+	private Long ano;
+
+	/**
+	 * Mapping of field PAIS_CODIGO.
+	 */
+	private Long paisCodigo;
+
+	/**
+	 * Mapping of field REIS_ISSN.
+	 */
+	private String reisIssn;
+
+	/**
+	 * Mapping of field CATALOGO.
+	 */
+	private String catalago;
+
+	/**
+	 * Mapping of field AREA.
+	 */
+	private Long area;
+
+	/**
+	 * Mapping of field NOMBRE_REVISTA.
+	 */
+	@Column(columnDefinition = "TEXT")
+	private String nombreRevista;
+
+	/**
+	 * Mapping of field CUARTIL_REVISTA.
+	 */
+	private Long cuartilRevista;
+
+	/**
+	 * Mapping of field URL_REVISTA.
+	 */
+	@Column(columnDefinition = "TEXT")
+	private String urlRevista;
+
+	/**
+	 * Mapping of field VOLUMEN.
+	 */
+	private String volumen;
+
+	/**
+	 * Mapping of field NUMERO.
+	 */
+	private Long numero;
+
+	/**
+	 * Mapping of field PAGDESDE.
+	 */
+	private Long pagDesde;
+
+	/**
+	 * Mapping of field PAGHASTA.
+	 */
+	private Long pagHasta;
+
+	/**
+	 * Mapping of field NUMPAG.
+	 */
+	private Long numPag;
+
+	/**
+	 * Mapping of field COAUT_EXT.
+	 */
+	private String coautExt;
+
+	/**
+	 * Mapping of field ARTI_DOI.
+	 */
+	private String artiDoi;
 }

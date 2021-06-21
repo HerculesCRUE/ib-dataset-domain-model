@@ -1,9 +1,9 @@
 package es.um.asio.domain.cvn;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
-import javax.persistence.Lob;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -23,7 +23,7 @@ public class CvnString extends CvnBean {
 	/**
 	 * The value.
 	 */
-	@Lob
+	@Column(columnDefinition = "TEXT")
 	public String value;
 
 }

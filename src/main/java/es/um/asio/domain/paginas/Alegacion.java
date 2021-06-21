@@ -1,7 +1,7 @@
 package es.um.asio.domain.paginas;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Lob;
 
 import es.um.asio.domain.OperationableDataSetDataBase;
 import lombok.EqualsAndHashCode;
@@ -17,53 +17,53 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class Alegacion extends OperationableDataSetDataBase {  
-    
-    /**
-     * Mapping of field NUMERO.
-     */
-    private long numero;
-    
-    /**
-     * Mapping of field COD_TIPO.
-     */
-    private long codTipo;
-    
-    /**
-     * Mapping of field TITULO.
-     */
-    private String titulo;
-    
-    /**
-     * Mapping of field IDPERSONA.
-     */
-    private long idPersona;
-    
-    /**
-     * Mapping of field MOTIVO.
-     */
-    @Lob
-    private String motivo;
-    
-    /**
-     * Mapping of field TEXTO.
-     */
-    @Lob
-    private String texto;
-    
-    /**
-     * Mapping of field RESUELVE_TEXTO.
-     */
-    @Lob
-    private String resuelveText;
-    
-    /**
-     * Mapping of field FECHA.
-     */
-    private String fecha;
-    
-    /**
-     * Mapping of field ESTADO.
-     */
-    private String estado;
+public class Alegacion extends OperationableDataSetDataBase {
+
+	/**
+	 * Mapping of field NUMERO.
+	 */
+	private long numero;
+
+	/**
+	 * Mapping of field COD_TIPO.
+	 */
+	private long codTipo;
+
+	/**
+	 * Mapping of field TITULO.
+	 */
+	private String titulo;
+
+	/**
+	 * Mapping of field IDPERSONA.
+	 */
+	private long idPersona;
+
+	/**
+	 * Mapping of field MOTIVO.
+	 */
+	@Column(columnDefinition = "TEXT")
+	private String motivo;
+
+	/**
+	 * Mapping of field TEXTO.
+	 */
+	@Column(columnDefinition = "TEXT")
+	private String texto;
+
+	/**
+	 * Mapping of field RESUELVE_TEXTO.
+	 */
+	@Column(columnDefinition = "TEXT")
+	private String resuelveText;
+
+	/**
+	 * Mapping of field FECHA.
+	 */
+	private String fecha;
+
+	/**
+	 * Mapping of field ESTADO.
+	 */
+	private String estado;
 }

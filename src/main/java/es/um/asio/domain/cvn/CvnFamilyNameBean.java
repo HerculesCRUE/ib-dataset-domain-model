@@ -1,7 +1,7 @@
 package es.um.asio.domain.cvn;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Lob;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -21,12 +21,12 @@ public class CvnFamilyNameBean extends CvnBean {
 	/**
 	 * The first family name.
 	 */
-	@Lob
+	@Column(columnDefinition = "TEXT")
 	public String firstFamilyName;
 
 	/**
 	 * The second family name.
 	 */
-	@Lob
+	@Column(columnDefinition = "TEXT")
 	public String secondFamilyName;
 }

@@ -1,8 +1,8 @@
 package es.um.asio.domain.cvn;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Lob;
 import javax.persistence.OneToOne;
 
 import lombok.EqualsAndHashCode;
@@ -29,13 +29,13 @@ public class CvnAuthorBean extends CvnBean {
 	/**
 	 * The given name.
 	 */
-	@Lob
+	@Column(columnDefinition = "TEXT")
 	public String givenName;
 
 	/**
 	 * The signature.
 	 */
-	@Lob
+	@Column(columnDefinition = "TEXT")
 	public String signature;
 
 	/**
