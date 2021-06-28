@@ -44,7 +44,7 @@
 		
 		<org.hibernate.hibernate-jpamodelgen.version>5.4.10.Final</org.hibernate.hibernate-jpamodelgen.version>
 
-		<asio-abstractions.version>2.0-SNAPSHOT</asio-abstractions.version>
+		<asio-abstractions.version>1.0-SNAPSHOT</asio-abstractions.version>
 	</properties>
 
 	<dependencies>
