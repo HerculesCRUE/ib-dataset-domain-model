@@ -8,7 +8,6 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 public class ImportError {
-	private String id;
 	private String jobExecutionId;
 	private String description;	
 }
