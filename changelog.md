@@ -1,5 +1,10 @@
 # Registro de cambios
 
+## 2.1-SNAPSHOT (15/07/2021)
+
+- Implementación de endpoint para programación de tareas
+- Corrección de errores.
+
 ## 2.0-SNAPSHOT (19/05/2021)
 
 - Actualizados los pojos necesarios para leer ficheros del dataset.
