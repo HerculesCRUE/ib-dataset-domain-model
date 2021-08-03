@@ -16,40 +16,41 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class InventorPatente extends OperationableDataSetDataBase {  
-    
-    /**
-     * Mapping of field IDPATENTE.
-     */
-    private long idPatente;
-    
-    /**
-     * Mapping of field NUMERO.
-     */
-    private long numero;
-    
-    /**
-     * Mapping of field IDPERSONA.
-     */
-    private long idPersona;    
-    
-    /**
-     * Mapping of field INVENTORPRINCIPAL.
-     */
-    private String inventorPrincipal;
-    
-    /**
-     * Mapping of field PERSONALPROPIO.
-     */
-    private String personalPropio;
-    
-    /**
-     * Mapping of field NUMEROORDEN.
-     */
-    private Long numeroOrden;    
-    
-    /**
-     * Mapping of field PARTICIPACION.
-     */
-    private Float participacion;
+public class InventorPatente extends OperationableDataSetDataBase {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8103390647067659516L;
+
+	/**
+	 * Mapping of field IDPATENTE.
+	 */
+	private String idPatente;
+
+	/**
+	 * Mapping of field IDPERSONAINVENTOR.
+	 */
+	private String idPersonaInventor;
+
+	/**
+	 * Mapping of field INVENTORPRINCIPAL.
+	 */
+	private String inventorPrincipal;
+
+	/**
+	 * Mapping of field PERSONALPROPIO.
+	 */
+	private String personalPropio;
+
+	/**
+	 * Mapping of field NUMEROORDEN.
+	 */
+	private String numeroOrden;
+
+	/**
+	 * Mapping of field PARTICIPACION.
+	 */
+	private String participacion;
+
 }

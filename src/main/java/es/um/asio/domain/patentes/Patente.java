@@ -16,70 +16,31 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class Patente extends OperationableDataSetDataBase {  
-    
-    /**
-     * Mapping of field IDPATENTE.
-     */
-    private long idPatente;
-    
-    /**
-     * Mapping of field TIPOPATENTE.
-     */
-    private String tipoPatente;
-    
-    /**
-     * Mapping of field REFERENCIAPATENTE.
-     */
-    private String referenciaPatente;
-    
-    /**
-     * Mapping of field TITULO.
-     */
-    private String titulo;
-    
-    /**
-     * Mapping of field IDAGENTE.
-     */
-    private Long idAgente;
-    
-    /**
-     * Mapping of field OBSERVACIONES.
-     */
-    private String observaciones;
-    
-    /**
-     * Mapping of field CODPROVINCIA.
-     */
-    private Long codigoProvincia;
-    
-    /**
-     * Mapping of field NUMEROSOLICITUD.
-     */
-    private Long numeroSolicitud;
-    
-    /**
-     * Mapping of field ANIOSOLICITUD.
-     */
-    private Long anioSolicitud;
-    
-    /**
-     * Mapping of field FECHASOLICITUD.
-     */
-    private String fechaSolicitud;
-    
-    /**
-     * Mapping of field CODASIENTO.
-     */
-    private String codAsiento;
-    
-    /**
-     * Mapping of field ANIOASIENTO.
-     */
-    private Long anioAsiento;
-    
-    /**
-     * Mapping of field NUMEROASIENTO.
-     */
-    private Long numeroAsiento;
+public class Patente extends OperationableDataSetDataBase {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7085925266775097664L;
+
+	/**
+	 * Mapping of field IDPATENTE.
+	 */
+	private long idPatente;
+
+	/**
+	 * Mapping of field TIPO.
+	 */
+	private String tipo;
+
+	/**
+	 * Mapping of field REFERENCIA.
+	 */
+	private String referencia;
+
+	/**
+	 * Mapping of field TITULO.
+	 */
+	private String titulo;
+
 }

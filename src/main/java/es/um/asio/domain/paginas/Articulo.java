@@ -20,6 +20,11 @@ import lombok.ToString;
 public class Articulo extends OperationableDataSetDataBase {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2029648218020259580L;
+
+	/**
 	 * Mapping of field CODIGO.
 	 */
 	private long codigo;
@@ -105,4 +110,25 @@ public class Articulo extends OperationableDataSetDataBase {
 	 * Mapping of field ARTI_DOI.
 	 */
 	private String artiDoi;
+
+	/**
+	 * Mapping of field DESCRI_CATALOGO.
+	 */
+	private String descriCatalogo;
+
+	/**
+	 * Mapping of field DESCRI_AREA.
+	 */
+	private String descriArea;
+
+	/**
+	 * Mapping of field IMPACTO_REVISTA.
+	 */
+	private String impactoRevista;
+
+	/**
+	 * Mapping of field REIS_NUMERO.
+	 */
+	private String reisNumero;
+
 }

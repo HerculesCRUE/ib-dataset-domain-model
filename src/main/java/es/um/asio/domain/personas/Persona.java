@@ -16,40 +16,61 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class Persona extends OperationableDataSetDataBase {  
-    
-    /**
-     * Mapping of field IDPERSONA.
-     */
-    private long idPersona;
-    
-    /**
-     * Mapping of field NOMBRE.
-     */
-    private String nombre;
-    
-    /**
-     * Mapping of field PERS_CENT_CODIGO.
-     */
-    private String persCentCodigo;
-    
-    /**
-     * Mapping of field CED_NOMBRE.
-     */
-    private String cedNombre;
-    
-    /**
-     * Mapping of field PERS_DEPT_CODIGO.
-     */
-    private String persDeptCodigo;
-    
-    /**
-     * Mapping of field DEP_NOMBRE.
-     */
-    private String depNombre;  
-    
-    /**
-     * Mapping of field SEXO.
-     */
-    private String sexo;   
+public class Persona extends OperationableDataSetDataBase {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 528779159107598741L;
+
+	/**
+	 * Mapping of field IDPERSONA.
+	 */
+	private long idPersona;
+
+	/**
+	 * Mapping of field NOMBRE.
+	 */
+	private String nombre;
+
+	/**
+	 * Mapping of field PERS_CENT_CODIGO.
+	 */
+	private String persCentCodigo;
+
+	/**
+	 * Mapping of field CED_NOMBRE.
+	 */
+	private String cedNombre;
+
+	/**
+	 * Mapping of field PERS_DEPT_CODIGO.
+	 */
+	private String persDeptCodigo;
+
+	/**
+	 * Mapping of field DEP_NOMBRE.
+	 */
+	private String depNombre;
+
+	/**
+	 * Mapping of field SEXO.
+	 */
+	private String sexo;
+
+	/**
+	 * Mapping of field PERSONAL_ACTIVO.
+	 */
+	private String personalActivo;
+
+	/**
+	 * Mapping of field PERSONAL_UMU.
+	 */
+	private String personalUMU;
+
+	/**
+	 * Mapping of field EMAIL.
+	 */
+	private String email;
+
 }

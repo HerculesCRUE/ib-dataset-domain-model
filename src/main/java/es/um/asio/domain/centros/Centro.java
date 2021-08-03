@@ -16,17 +16,31 @@ import lombok.ToString;
 @Setter
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
-public class Centro extends OperationableDataSetDataBase {  
-    
-    /**
-     * Mapping of field CED_CODIGO.
-     */
-	protected String cedcodigo;
+public class Centro extends OperationableDataSetDataBase {
 
-    /**
-     * Mapping of field CED_NOMBRE.
-     */
-    private String cednombre;
-    
-      
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1365773078684611015L;
+
+	/**
+	 * Mapping of field CED_CODIGO.
+	 */
+	protected String cedCodigo;
+
+	/**
+	 * Mapping of field CED_NOMBRE.
+	 */
+	private String cedNombre;
+
+	/**
+	 * Mapping of field COD_ORGANIZACION.
+	 */
+	private String codOrganizacion;
+
+	/**
+	 * Mapping of field DESCRI_ORGANIZACION.
+	 */
+	private String descriOrganizacion;
+
 }
