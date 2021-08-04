@@ -24,30 +24,31 @@ import lombok.ToString;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ImportEtlResult extends DataSetDataBase{
+public class ImportEtlResult extends DataSetDataBase {
+
 	/**
-	 * 
-	 */	
+	 * serialVersionUID
+	 */
 	private static final long serialVersionUID = -8675168439808472063L;
 
 	/**
 	 * Date of import
 	 */
-	private Date dateTime; 
-	
+	private Date dateTime;
+
 	/**
 	 * Status import
 	 */
 	private String status;
-	
+
 	/**
 	 * final message of import
 	 */
 	private String message;
-	
+
 	/**
-	 *  endpoint of import
+	 * endpoint of import
 	 */
 	private String endpoint;
-	
+
 }
