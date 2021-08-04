@@ -17,34 +17,39 @@ import lombok.ToString;
 @ToString(includeFieldNames = true)
 @EqualsAndHashCode(callSuper = true)
 public class EquipoProyecto extends OperationableDataSetDataBase {
-    
-    /**
-     * Mapping of field IDPROYECTO.
-     */
-    private long idProyecto;
-    
-    /**
-     * Mapping of field NUMEROCOLABORADOR.
-     */
-    private long numeroColaborador;
-    
-    /**
-     * Mapping of field IDPERSONA.
-     */
-    private long idPersona;
-    
-    /**
-     * Mapping of field CODTITULACION.
-     */
-    private String codTitulacion;
-    
-    /**
-     * Mapping of field FECHAINICIO.
-     */
-    private String fechaInicio;
-    
-    /**
-     * Mapping of field FECHAFIN.
-     */
-    private String fechaFin;
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4032051803004992134L;
+
+	/**
+	 * Mapping of field IDPROYECTO.
+	 */
+	private String idProyecto;
+
+	/**
+	 * Mapping of field NUMEROCOLABORADOR.
+	 */
+	private String numeroColaborador;
+
+	/**
+	 * Mapping of field IDPERSONA.
+	 */
+	private String idPersona;
+
+	/**
+	 * Mapping of field CODTITULACION.
+	 */
+	private String codTitulacion;
+
+	/**
+	 * Mapping of field FECHAINICIO.
+	 */
+	private String fechaInicio;
+
+	/**
+	 * Mapping of field FECHAFIN.
+	 */
+	private String fechaFin;
 }

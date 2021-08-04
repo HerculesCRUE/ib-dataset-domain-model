@@ -26,7 +26,7 @@ public class Patente extends OperationableDataSetDataBase {
 	/**
 	 * Mapping of field IDPATENTE.
 	 */
-	private long idPatente;
+	private String idPatente;
 
 	/**
 	 * Mapping of field TIPO.

@@ -19,14 +19,19 @@ import lombok.ToString;
 public class FechaProyecto extends OperationableDataSetDataBase {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7397669334394478663L;
+
+	/**
 	 * Mapping of field IDPROYECTO.
 	 */
-	private Long idProyecto;
+	private String idProyecto;
 
 	/**
 	 * Mapping of field NUMERO.
 	 */
-	private Long numero;
+	private String numero;
 
 	/**
 	 * Mapping of field FECHAINICIOEXPEDIENTE.

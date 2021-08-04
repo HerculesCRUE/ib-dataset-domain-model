@@ -26,7 +26,7 @@ public class Proyecto extends OperationableDataSetDataBase {
 	/**
 	 * Mapping of field IDPROYECTO.
 	 */
-	private Long idProyecto;
+	private String idProyecto;
 
 	/**
 	 * Mapping of field NOMBRE.
