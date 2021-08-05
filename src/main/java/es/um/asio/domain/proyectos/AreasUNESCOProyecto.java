@@ -25,26 +25,26 @@ public class AreasUNESCOProyecto extends OperationableDataSetDataBase {
 	/**
 	 * Mapping of field IDPROYECTO.
 	 */
-	private long idProyecto;
+	private String idProyecto;
 
 	/**
 	 * Mapping of field NUMERO.
 	 */
-	private long numero;
+	private String numero;
 
 	/**
 	 * Mapping of field UNAR_CODIGO.
 	 */
-	private long unarCodigo;
+	private String unarCodigo;
 
 	/**
 	 * Mapping of field UNCA_CODIGO.
 	 */
-	private long uncaCodigo;
+	private String uncaCodigo;
 
 	/**
 	 * Mapping of field UNES_CODIGO.
 	 */
-	private long unesCodigo;
+	private String unesCodigo;
 
 }
