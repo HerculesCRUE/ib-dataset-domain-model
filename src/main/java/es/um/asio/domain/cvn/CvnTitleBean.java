@@ -19,6 +19,11 @@ import lombok.ToString;
 public class CvnTitleBean extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2945066509324458846L;
+
+	/**
 	 * The identification.
 	 */
 	public String identification;

@@ -23,6 +23,10 @@ import lombok.ToString;
 public class CvnRootBean extends OperationableDataSetDataBase {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4040440396656290333L;
+	/**
 	 * The cvn item bean.
 	 */
 	@OneToMany(cascade = CascadeType.ALL)

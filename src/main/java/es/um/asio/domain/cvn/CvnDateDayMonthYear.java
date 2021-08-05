@@ -20,6 +20,10 @@ import lombok.ToString;
 public class CvnDateDayMonthYear extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5393189509667830102L;
+	/**
 	 * The value.
 	 */
 	public Date value;

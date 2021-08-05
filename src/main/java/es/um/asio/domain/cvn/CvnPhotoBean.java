@@ -19,6 +19,11 @@ import lombok.ToString;
 public class CvnPhotoBean extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7429461465512936580L;
+
+	/**
 	 * The bytes in base 64.
 	 */
 	@Column(columnDefinition = "TEXT")

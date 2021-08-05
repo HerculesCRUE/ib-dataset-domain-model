@@ -19,6 +19,10 @@ import lombok.ToString;
 public class CvnDuration extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -1741806318914700826L;
+	/**
 	 * The value.
 	 */
 	@Column(columnDefinition = "TEXT")

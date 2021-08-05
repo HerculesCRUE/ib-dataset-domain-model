@@ -21,6 +21,11 @@ import lombok.ToString;
 public class CvnAuthorBean extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4060946296926812954L;
+
+	/**
 	 * The cvn family name bean.
 	 */
 	@OneToOne(cascade = CascadeType.ALL)

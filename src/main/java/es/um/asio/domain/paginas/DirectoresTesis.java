@@ -8,6 +8,9 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * Class that represents the mapping of the file "Directores tesis.xml"
+ */
 @Entity
 @Getter
 @Setter

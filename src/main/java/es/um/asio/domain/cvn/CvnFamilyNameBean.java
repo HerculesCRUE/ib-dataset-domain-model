@@ -19,6 +19,11 @@ import lombok.ToString;
 public class CvnFamilyNameBean extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5941116937196338380L;
+
+	/**
 	 * The first family name.
 	 */
 	@Column(columnDefinition = "TEXT")

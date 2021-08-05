@@ -17,6 +17,10 @@ import lombok.ToString;
 public abstract class CvnBean extends OperationableDataSetDataBase {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6951648799359695524L;
+	/**
 	 * The code.
 	 */
 	public String code;

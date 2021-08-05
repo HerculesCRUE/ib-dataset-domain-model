@@ -21,6 +21,10 @@ import lombok.ToString;
 @EqualsAndHashCode(callSuper = true)
 public class CvnString extends CvnBean {
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3747946033927827038L;
+	/**
 	 * The value.
 	 */
 	@Column(columnDefinition = "TEXT")

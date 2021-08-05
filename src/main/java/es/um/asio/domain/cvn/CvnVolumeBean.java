@@ -18,6 +18,11 @@ import lombok.ToString;
 public class CvnVolumeBean extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6934869699372097991L;
+
+	/**
 	 * The number.
 	 */
 	public String number;

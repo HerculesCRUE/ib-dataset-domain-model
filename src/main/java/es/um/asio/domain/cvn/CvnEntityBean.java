@@ -19,6 +19,11 @@ import lombok.ToString;
 public class CvnEntityBean extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3827270218505460998L;
+
+	/**
 	 * The id.
 	 */
 	public String id;

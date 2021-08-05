@@ -18,6 +18,10 @@ import lombok.ToString;
 public class CvnDouble extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4471306709697358829L;
+	/**
 	 * The value.
 	 */
 	public Double value;

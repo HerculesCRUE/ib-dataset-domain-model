@@ -18,6 +18,10 @@ import lombok.ToString;
 public class CvnBoolean extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6524173161797102610L;
+	/**
 	 * The value.
 	 */
 	public Boolean value;

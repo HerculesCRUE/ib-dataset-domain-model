@@ -8,6 +8,9 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * Class that represents the mapping of the file "Organizaciones externas.xml"
+ */
 @Entity
 @Getter
 @Setter

@@ -9,7 +9,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * Class that represents the mapping of the file "Centros.xml"
+ * Class that represents the mapping of the file "Fechas Equipos Proyectos.xml"
  */
 @Entity
 @Getter

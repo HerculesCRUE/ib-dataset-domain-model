@@ -18,6 +18,11 @@ import lombok.ToString;
 public class CvnPageBean extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3535790703610666419L;
+
+	/**
 	 * The final page.
 	 */
 	public String finalPage;

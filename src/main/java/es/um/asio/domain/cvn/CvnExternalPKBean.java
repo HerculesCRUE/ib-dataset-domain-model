@@ -18,6 +18,11 @@ import lombok.ToString;
 public class CvnExternalPKBean extends CvnBean {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3310135035571609512L;
+
+	/**
 	 * The type.
 	 */
 	public String type;
