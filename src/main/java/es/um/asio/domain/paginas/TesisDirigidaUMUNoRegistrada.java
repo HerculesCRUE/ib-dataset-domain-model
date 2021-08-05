@@ -22,7 +22,7 @@ public class TesisDirigidaUMUNoRegistrada extends OperationableDataSetDataBase {
 	/**
 	 * Mapping of field TESI_CODIGO.
 	 */
-	private long tesiCodigo;
+	private String tesiCodigo;
 
 	/**
 	 * Mapping of field TESI_DNIAUTOR.

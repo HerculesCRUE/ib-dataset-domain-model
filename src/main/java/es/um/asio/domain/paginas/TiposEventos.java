@@ -25,11 +25,11 @@ public class TiposEventos extends OperationableDataSetDataBase {
 	/**
 	 * Mapping of field TIEV_CODIGO.
 	 */
-	private long tievCodigo;
+	private String tievCodigo;
 
 	/**
 	 * Mapping of field TIEV_NOMBRE.
 	 */
-	private long tievNombre;
+	private String tievNombre;
 
 }

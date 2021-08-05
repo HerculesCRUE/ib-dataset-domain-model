@@ -26,16 +26,16 @@ public class Tesis extends OperationableDataSetDataBase {
 	/**
 	 * Mapping of field CODIGO_TESIS.
 	 */
-	private long codigoTesis;
+	private String codigoTesis;
 
 	/**
 	 * Mapping of field TITULO_TESIS.
 	 */
-	private long tituloTesis;
+	private String tituloTesis;
 
 	/**
 	 * Mapping of field FECHA_LECTURA.
 	 */
-	private long fechaLectura;
+	private String fechaLectura;
 
 }
