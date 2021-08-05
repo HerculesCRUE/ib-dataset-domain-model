@@ -21,7 +21,7 @@ public class TesisExterna extends OperationableDataSetDataBase {
 	/**
 	 * Mapping of field TESI_CODIGO.
 	 */
-	private StringS tesiCodigo;
+	private String tesiCodigo;
 
 	/**
 	 * Mapping of field TESI_DNIAUTOR.
